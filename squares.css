@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(62, 49, 247, 0.267);
+}
+
+button {
+    width: 140px;
+    height: 80px;
+    background-color: rgb(255, 255, 140);
+    border: 1px solid rgb(245, 245, 46);
+    border-radius: 5px;
+    color: rgb(26, 22, 16);
+    font-size: 16px;
+    margin: 0 10px;
+    box-shadow: 4px 4px 5px -4px rgba(21, 6, 88, 0.84);
+    font-family: Arial, "Calibri", "Candara", "Alata", "Trebuchet MS", Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px white,
+                 1px 1px 1px rgb(20, 53, 199),
+                 1px 1px 1px gray;
+}
+
+button:hover {
+    width: 144px;
+    height: 82px;
+    margin-bottom: -2px;
+    margin-left: 6px;
+    background-color: rgb(255, 255, 169);
+    color: rgb(22, 20, 16);
+    font-size: 18px;
+}
+
+button:active {
+    outline: 0 !important;
+}
+
+.container {
+    width: 960px;
+    height: 960px;
+    margin: auto;
+    display: grid;
+    border: 2px groove rgb(21, 6, 88);
+    border-radius: 5px;
+    background-color: rgb(247, 247, 255);
+}
+
+.container div {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hover-change {
+    background-color: orange;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.add-gridlines {
+    border: 0.5px solid rgba(21, 6, 88, 0.7);
+}
+
+#display-gridlines {
+    padding: 0 20px;
+}
